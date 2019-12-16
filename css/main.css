@@ -2,10 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.img-slide {
-    margin-top: 20px;
-    
-}
+
 
 .botones {
     margin-top: 20px;
@@ -15,4 +12,25 @@ body {
 
 .bot{
     margin-right:70px;
+}
+
+.tex{
+    text-align: justify;
+
+}
+ .h1principal{
+     text-align: center;
+ }
+
+.escrolear{
+   
+    padding-top: 40px;
+    
+}
+
+
+.box{
+    height:300px ;
+    width: 200px%;
+    overflow: auto;
 }
