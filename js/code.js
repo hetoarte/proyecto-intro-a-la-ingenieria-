@@ -4,6 +4,7 @@ function login(){
     
 
     firebase.auth().signInWithEmailAndPassword(email, password)
+
     
     .catch(function(error) {
         // Handle Errors here.

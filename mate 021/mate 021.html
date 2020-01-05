@@ -95,25 +95,38 @@
     <div class="container escrolear col-sm-7 col-md-7 col-11">
       <div class="text-center">
 
-        <span class="badge badge-info p-3 text-uppercase .d-flex " style="width:100%; height:60px; border:0;"><h5>Apuntes y resumenes</h5></span>
+        <span class="badge badge-info p-3 text-uppercase .d-flex " style="width:100%; height:60px; border:0;">
+
+          <h5>Apuntes y resumenes</h5>
         
+        </span>
       </div>
 
-      <div class="box">
+
+      <div id="directorios">
+      <p id="raiz">mates</p>
+      <p class="2">mate1</p>
+      <p class="3">certamenes</p>
+      </div>
+      <input type="text" id="nombre" placeholder="nombre" class="form-control my-2">
+      <input type="url" id="link" placeholder="link" class="form-control my-2">
+      <button class="btn btn-info" class="mates mate1 apuntes" onclick="guardar() ">guardar</button>
+      <div class="box" id="list-fire">
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro corporis laborum, voluptas ratione aliquid ipsam ipsa deleniti blanditiis officiis, voluptatibus, cumque dignissimos debitis. Hic sapiente delectus natus qui quaerat?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum delectus ea quidem numquam doloribus velit aliquam quos reprehenderit exercitationem iste atque asperiores dolore neque, qui fugit? Voluptates, reiciendis consequuntur. </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum, perspiciatis aliquam incidunt iste aut rem quae repellat. Tempore, exercitationem deserunt eligendi tempora accusamus commodi consequatur laudantium fugit maxime suscipit.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti officia deserunt perferendis consectetur fugiat doloribus, provident voluptas tempore, nobis in odit, id alias excepturi ab magni! Odit vero quaerat quas!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae non pariatur ea accusantium hic fugiat aspernatur placeat esse, labore libero laudantium temporibus? Earum voluptates iusto neque in nesciunt dolores laborum.</p>
+      
       </div>
 
       <div class="list-group pt-5 pb-5">
-        <span class="badge badge-info p-3 text-uppercase .d-flex " style="width:100%; height:60px; border:0;"><h5>Certamenes</h5></span>
+        <span class="badge badge-info p-3 text-uppercase .d-flex " style="width:100%; height:60px; border:0;">
+          <h5>Certamenes</h5>
+        </span>
         <iframe src="https://drive.google.com/embeddedfolderview?id=1teuGC5Y95mS80745UIXsOLfMh5gU5fI9" style="width:100%; height:400px; border:0;"></iframe>
       </div>
 
     </div>
+
+
+    
 
    
 
@@ -123,7 +136,7 @@
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
           <a href="../index.html"> nomechomath.com</a>
-          <a href="login.html">admin</a>
+          <a href="../login.html">admin</a>
           <div id="contenido"> </div>
         </div>
         <!-- Copyright -->
@@ -160,7 +173,8 @@
       </script>
 
 
-    <script src="/js/code.js"></script>
+    <script src="../js/code.js"></script>
+    <script src="../js/fire.js"></script>
     <!--bootstrap 4 script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
